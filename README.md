@@ -1,3 +1,7 @@
+# NOTE:
+
+This is my personal fork for my personal settings for the old Prusa i3 RepRap MK0. For the original code look at the original authors github!
+
 # Marlin 3D Printer Firmware
 <img align="right" src="../../raw/1.1.x/buildroot/share/pixmaps/logo/marlin-250.png" />
 
