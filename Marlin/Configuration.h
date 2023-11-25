@@ -137,7 +137,7 @@
 #define EXTRUDERS 1
 
 // Generally expected filament diameter (1.75, 2.85, 3.0, ...). Used for Volumetric, Filament Width Sensor, etc.
-#define DEFAULT_NOMINAL_FILAMENT_DIA 3.0
+#define DEFAULT_NOMINAL_FILAMENT_DIA 1.75
 
 // For Cyclops or any "multi-extruder" that shares a single nozzle.
 //#define SINGLENOZZLE
@@ -531,7 +531,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {80.5, 80.5,400*1.014,93.5} // default steps per unit for Sunhokey Prusa i3
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {80.5, 80.5,400*1.014,93.5*1.1} // default steps per unit for Sunhokey Prusa i3
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -791,8 +791,8 @@
 #define X_MIN_POS 0
 #define Y_MIN_POS 0
 #define Z_MIN_POS 0
-#define X_MAX_POS 215
-#define Y_MAX_POS 210
+#define X_MAX_POS 210
+#define Y_MAX_POS 205
 #define Z_MAX_POS 180
 
 /**
@@ -1149,8 +1149,8 @@
 // @section temperature
 
 // Preheat Constants
-#define PREHEAT_1_TEMP_HOTEND 180
-#define PREHEAT_1_TEMP_BED     70
+#define PREHEAT_1_TEMP_HOTEND 210
+#define PREHEAT_1_TEMP_BED     80
 #define PREHEAT_1_FAN_SPEED     0 // Value from 0 to 255
 
 #define PREHEAT_2_TEMP_HOTEND 240
